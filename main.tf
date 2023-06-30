@@ -18,6 +18,7 @@ resource "aws_subnet" "sub1" {
 
 
 
+
 resource "aws_subnet" "sub2" {
   vpc_id     = aws_vpc.Richard.id
   cidr_block = "10.0.2.0/24"
